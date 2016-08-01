@@ -1,0 +1,62 @@
+<div class="flat-background" style="background-image: url(<%= image_path flat.image %>)"></div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="flat-owner">
+        <div class="flat-photo">
+          <div><%= image_tag flat.avatar %></div>
+          <%= flat.owner %>
+        </div>
+        <div>
+          <h2 class="flat-name"><%= flat.name %></h2>
+          <div class="flat-location"><%= flat.location %></div>
+          <div class="flat-rating">
+            <% 5.times do |i| %>)
+              <i class="fa fa-star <%= 'flat-rating-active' if flat.rating >= i + 1 %>"></i>
+            <% end %>
+          </div>
+        </div>
+      </div>      
+    </div>
+    <div class="col-sm-6">
+      <div class="booking-form">
+        <h2>Book this flat</h2>
+        <div class="form-inline">
+          <input type="text" class="form-control" placeholder="check in">
+          <input type="text" class="form-control" placeholder="check out">
+        </div>
+        <div>
+          <select name="" id="" class="form-control flat-guests">
+            <% 10.times do |i| %>
+              <option value=""><%= pluralize(i + 1, 'guest', 'guests') %></option>
+            <% end %>
+          </select>
+        </div>
+        <button class="btn btn-primary btn-block" type="submit">Book it</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="flat-descriptions">
+  <div class="container">
+    <h3>About this flat</h3>
+    <p><%= flat.about %></p>
+
+    <div class="row">
+      <div class="col-sm-3">
+        The space
+      </div>
+      <div class="col-sm-9 flat-features">
+        <% flat.the_space.each do |feature| %>
+          <div class="flat-feature">
+            <%= feature.name %>:
+            <strong><%= feature.value %></strong>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

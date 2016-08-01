@@ -1,20 +1,68 @@
 seb:
   location: Paris
   name: Seb's home
+  owner: Seb
   description: Charming room with patio
   image: card-paris.jpg
   avatar: seb.jpg
   wifi: false
+  rating: 4
+  about: This one bedroom studio lodges 2 people (there's 1 double bed) it is located in the city center, in a calm traditional residential area near city´s main Avenue - 3 minutes walk from Sacré Coeur.
+  the_space:
+    - name: Accommodates
+      value: 2
+    - name: bathrooms
+      value: 1
+    - name: Bed type
+      value: Real Bed
+    - name: Beds
+      value: 1
+    - name: Property type
+      value: Apartment
+    - name: Room type
+      value: Entire home/apt
 anne:
   location: Brussels
   name: Anne's home
+  owner: Anne
   description: Lovely house
   image: card-brussels.jpeg
   avatar: anne.jpg
   wifi: true
+  rating: 4
+  about: This one bedroom studio lodges 2 people (there's 1 double bed) it is located in the city center, in a calm traditional residential area near city´s main Avenue - 3 minutes walk from Sacré Coeur.
+  the_space:
+    - name: Accommodates
+      value: 2
+    - name: bathrooms
+      value: 1
+    - name: Bed type
+      value: Real Bed
+    - name: Beds
+      value: 1
+    - name: Property type
+      value: Apartment
+    - name: Room type
+      value: Entire home/apt
 romain:
   location: London
   name: Romain's house
+  owner: Romain
   description: Nice flat in Piccadilly
   avatar: romain.jpeg
   image: card-london.jpeg
+  rating: 5
+  about: This one bedroom studio lodges 2 people (there's 1 double bed) it is located in the city center, in a calm traditional residential area near city´s main Avenue - 3 minutes walk from Sacré Coeur.
+  the_space:
+    - name: Accommodates
+      value: 2
+    - name: bathrooms
+      value: 1
+    - name: Bed type
+      value: Real Bed
+    - name: Beds
+      value: 1
+    - name: Property type
+      value: Apartment
+    - name: Room type
+      value: Entire home/apt

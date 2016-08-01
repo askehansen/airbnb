@@ -42,7 +42,7 @@
       <div class="container">
         <h2 class="text-center">Your next trip</h2>
         <div class="row">
-          <% data.flats.each do |owner, flat| %>
+          <% data.flats.each do |key, flat| %>
             <div class="col-xs-12 col-sm-4">
               <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= image_path flat.image %>);">
                 <div class="card-category"><%= flat.location %></div>
@@ -53,7 +53,7 @@
                 </div>
                 <%= image_tag flat.avatar, class: 'card-user avatar avatar-large' %>
                 <!-- <img class="card-user avatar avatar-large" src="images/seb.jpg"> -->
-                <%= link_to '', '#', class: 'card-link' %>
+                <%= link_to '', "/flats/#{key}.html", class: 'card-link' %>
                 <!-- <a class="card-link" href="#" ></a> -->
               </div>
             </div>

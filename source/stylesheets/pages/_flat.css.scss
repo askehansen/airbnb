@@ -1,0 +1,58 @@
+.flat-background {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.flat-owner {
+  margin: 100px 0;
+  display: flex;
+}
+
+.flat-photo {
+  margin-right: 20px;
+  img {
+    border-radius: 50%;
+    width: 100px;
+    margin: 10px;
+  }
+  text-align: center;
+}
+
+.flat-name {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.booking-form {
+  margin: 50px 0;
+  background: $gray-lighter;
+  padding: 20px;
+}
+
+.flat-guests {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.flat-descriptions {
+  background: $gray-lighter;
+  padding: 100px 0;
+}
+
+.flat-features {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flat-feature {
+  width: 50%;
+}
+
+.flat-rating {
+  color: $gray-lighter;
+}
+
+.flat-rating-active {
+  color: $yellow;
+}
