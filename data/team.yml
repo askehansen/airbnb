@@ -1,0 +1,8 @@
+- name: John
+  role: User
+- name: Jane
+  role: User
+- name: Joe
+  role: Boss
+- name: Jack
+  role: User

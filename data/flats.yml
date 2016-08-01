@@ -1,0 +1,20 @@
+seb:
+  location: Paris
+  name: Seb's home
+  description: Charming room with patio
+  image: card-paris.jpg
+  avatar: seb.jpg
+  wifi: false
+anne:
+  location: Brussels
+  name: Anne's home
+  description: Lovely house
+  image: card-brussels.jpeg
+  avatar: anne.jpg
+  wifi: true
+romain:
+  location: London
+  name: Romain's house
+  description: Nice flat in Piccadilly
+  avatar: romain.jpeg
+  image: card-london.jpeg

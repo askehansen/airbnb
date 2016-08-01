@@ -1,0 +1,9 @@
+<div class="container">
+  <h1 class="text-center">Awesome team</h1>
+  
+  <ul class="list-inline text-center">
+    <% data.team.each do |member| %>
+      <li class="team-member"><strong><%= "#{member.name} is a #{member.role}" %></strong></li>
+    <% end %>
+  </ul>
+</div>
